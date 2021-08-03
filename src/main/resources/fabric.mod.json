@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fabricserverside",
+  "version": "${version}",
+  "name": "FabricServerSide",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/FabricServerSide/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.mmm1245.fabric.fabricserverside.FabricServerSide"
+    ]
+  },
+  "mixins": [
+    "FabricServerSide.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}

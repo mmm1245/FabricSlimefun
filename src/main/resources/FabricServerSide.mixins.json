@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.mmm1245.fabric.fabricserverside.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "SlotMixin",
+    "EquipmentMixin",
+    "TrackerMixin",
+    "BlockMixin",
+    "BlockEventMixin",
+    "CreativeFix",
+    "InventoryMixin",
+    "ArrayPaletteMixin",
+    "BiMapPalleteMixin",
+    "PlayerActionResponseMixin",
+    "EntityDisguiseMixin",
+    "MobDisguiseMixin",
+    "OpenScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
